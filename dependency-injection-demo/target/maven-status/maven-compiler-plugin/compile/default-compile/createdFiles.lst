@@ -1,0 +1,7 @@
+com\example\di\NotificationServiceConstructorInjection.class
+com\example\di\DiController.class
+com\example\di\DiApplication.class
+com\example\di\EmailServiceImpl.class
+com\example\di\EmailService.class
+com\example\di\NotificationServiceFieldInjection.class
+com\example\di\NotificationServiceSetterInjection.class

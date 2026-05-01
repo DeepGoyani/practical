@@ -1,0 +1,12 @@
+com\agile\model\User.class
+com\agile\model\UserStory.class
+com\agile\model\Priority.class
+com\agile\service\SprintMetrics.class
+com\agile\service\UserStoryService.class
+com\agile\repository\UserRepository.class
+com\agile\AgileApplication.class
+com\agile\model\Sprint.class
+com\agile\model\UserRole.class
+com\agile\model\SprintStatus.class
+com\agile\model\StoryStatus.class
+com\agile\repository\UserStoryRepository.class

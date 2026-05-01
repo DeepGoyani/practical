@@ -1,0 +1,10 @@
+com\attendance\AttendanceApplication.class
+com\attendance\model\AttendanceRecord.class
+com\attendance\model\Student.class
+com\attendance\controller\AttendanceController.class
+com\attendance\model\Lecture.class
+com\attendance\repository\StudentRepository.class
+com\attendance\repository\LectureRepository.class
+com\attendance\repository\AttendanceRepository.class
+com\attendance\service\AttendanceAnalytics.class
+com\attendance\service\AttendanceService.class
