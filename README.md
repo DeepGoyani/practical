@@ -1,20 +1,91 @@
-# Java# 🚀 Java Practical Projects - Complete Implementation
+# Java# 🚀 Java Practical Projects
 
-This repository contains **all Java practical work** successfully implemented and tested. Each project demonstrates core Java concepts with real-world applications.
+**All Java practical work successfully implemented and tested. Each project demonstrates core Java concepts with real-world applications.**
 
 ---
 
-## 📋 **Table of Contents**
+## 📋 **Projects Overview**
 
-1. [JDBC Bank Transaction Program](#1-jdbc-bank-transaction-program)
-2. [Spring Boot Hello REST API](#2-spring-boot-hello-rest-api)
-3. [Dependency Injection Demonstration](#3-dependency-injection-demonstration)
-4. [Design Thinking Attendance System](#4-design-thinking-attendance-system)
-5. [Agile Project Manager with TDD](#5-agile-project-manager-with-tdd)
-6. [Jenkins CI/CD Pipeline](#6-jenkins-cicd-pipeline)
-7. [Cloud Computing Architecture](#7-cloud-computing-architecture)
-8. [Setup Instructions](#8-setup-instructions)
-9. [Viva Questions & Answers](#9-viva-questions--answers)
+| Project | Status | Location | Test Result |
+|---------|--------|---------|-------------|
+| JDBC Bank Transaction | ✅ Working | BankTransaction.java | Transaction Successful |
+| Spring Boot Hello API | ✅ Working | hello-spring-boot/ | Returns "Hello from Spring Boot!" |
+| Dependency Injection Demo | ✅ Working | dependency-injection-demo/ | All 3 DI types working |
+| Design Thinking Attendance | ✅ Working | attendance-system/ | Runs on port 8081 |
+| Agile Project Manager | ✅ Working | agile-project-manager/ | 7/7 tests passing |
+| Jenkins CI/CD Pipeline | ✅ Working | jenkins-demo-app/ | Build & test success |
+| Cloud Computing | ✅ Working | cloudcomputing.md | Architecture documented |
+
+---
+
+## 🚀 **Quick Start**
+
+### **Spring Boot Hello API (Most Accessible)**
+```bash
+cd hello-spring-boot
+mvn spring-boot:run
+
+# Test in browser:
+http://localhost:8080/hello
+
+# Expected Response:
+"Hello from Spring Boot!"
+```
+
+### **All Projects Quick Commands**
+```bash
+# JDBC Program
+javac -cp "mysql-connector-j-8.0.33.jar" BankTransaction.java
+java -cp ".;mysql-connector-j-8.0.33.jar" BankTransaction
+
+# Dependency Injection Demo  
+cd dependency-injection-demo && mvn spring-boot:run
+
+# Attendance System
+cd attendance-system && mvn spring-boot:run
+
+# Agile Manager Tests
+cd agile-project-manager && mvn test
+
+# Jenkins Demo Build
+cd jenkins-demo-app && mvn clean test package
+```
+
+---
+
+## 📋 **Viva Questions - Quick Reference**
+
+1. **DriverManager?** Manages database drivers and connections
+2. **setAutoCommit(false)?** Manual transaction control (commit/rollback)
+3. **@RestController?** Spring REST annotation (combines @Controller + @ResponseBody)
+4. **TDD?** Test-First Development (write tests before code)
+5. **Velocity?** Sprint capacity measurement (story points per sprint)
+6. **Jenkins Pipeline?** CI/CD automation (build → test → deploy)
+7. **Design Thinking?** 5 stages: Empathise → Define → Ideate → Prototype → Test
+8. **Dependency Injection?** Framework provides dependencies (loose coupling)
+9. **Field vs Constructor?** Injection methods (field vs constructor parameters)
+10. **ACID?** Database properties: Atomicity, Consistency, Isolation, Durability
+
+---
+
+## 🔧 **Setup Requirements**
+
+- **JDK 17+** - Java development environment
+- **Apache Maven 3.8+** - Build automation tool
+- **MySQL Server 8.0+** - Database for JDBC program
+- **Git** - Version control system
+
+---
+
+## 🌐 **GitHub Repository**
+
+**https://github.com/DeepGoyani/practical.git**
+
+---
+
+## 🎯 **Ready for Exam**
+
+All projects tested and documented with working examples.
 
 ---
 
